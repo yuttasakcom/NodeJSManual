@@ -14,7 +14,7 @@
 * DNS
 * Domian
 * Errors
-* Events
+* [Events](#events)
 * File System
 * Globals
 * [HTTP](#http)
@@ -44,6 +44,20 @@ $ sudo apt-get install -y nodejs
 
 # optional
 $ sudo apt-get install -y build-essential
+```
+
+## Events
+
+```javascript
+const events = require("events");
+
+let emitter = new events.EventEmitter();
+
+emitter.on("newEvent", msg => console.log(msg));
+
+setTimeout(() => {
+  emitter.emit("newEvent", "Hello Events Emitter");
+}, 2000);
 ```
 
 ## Http
