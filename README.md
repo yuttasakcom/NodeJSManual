@@ -1,7 +1,7 @@
 # NodeJS Manual
 
 ## Table of Contents
-
+* [What is NodeJS](#what-is-nodejs)
 * [Install Nodejs Ubuntu](#install-nodejs-ubuntu)
 * Assertion Testing
 * Asynchronous vs. Synchronous
@@ -30,6 +30,18 @@
 * TLS/SSL
 * URL
 * Utilities
+
+## What is nodejs
+```
+- JavaScript Runtime Library
+- Based on Google's V8
+- Event-based
+- Asynchronous I/O Framework
+- Web servers
+- The N in MEAN stack
+- middle man between a host and numerous clients
+```
+
 
 ## Install Nodejs Ubuntu
 
